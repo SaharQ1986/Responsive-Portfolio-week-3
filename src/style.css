@@ -14,7 +14,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 5px;
 }
 
 h1 {
@@ -24,6 +23,12 @@ h1 {
 
 h2 {
   font-size: 48px;
+}
+.h-des {
+  text-align: left;
+}
+.p-des {
+  text-align: left;
 }
 
 h3 {
@@ -82,7 +87,9 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
-
+.yogurt-app {
+  margin-top: 50px;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -114,6 +121,15 @@ p {
   h2 {
     font-size: 36px;
   }
+  .h-des {
+    text-align: center;
+  }
+  .p-des {
+    text-align: center;
+  }
+  .app-photo {
+    display: block;
+  }
   .app-link {
     display: block;
     width: 100%;
@@ -123,13 +139,26 @@ p {
   .col-md-4 {
     margin-bottom: 30px;
   }
+  .yogurt-app {
+    margin: 25px 5px;
+  }
 }
 @media (max-width: 450px) {
   h1 {
-    font-size: 64px;
+    font-size: 52px;
+    text-align: center;
   }
   h2 {
-    font-size: 30px;
+    font-size: 24px;
+  }
+  .h-des {
+    text-align: center;
+  }
+  .p-des {
+    text-align: center;
+  }
+  .app-photo {
+    display: none;
   }
   .app-link {
     display: block;
@@ -139,5 +168,11 @@ p {
   }
   .col-md-4 {
     margin-bottom: 25px;
+  }
+  .weather-app {
+    margin-bottom: 20px;
+  }
+  .yogurt-app {
+    margin: 20px 5px;
   }
 }
